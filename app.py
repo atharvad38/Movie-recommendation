@@ -10,7 +10,7 @@ similarity = pickle.load(open(r"Artifacts/similarity.pkl","rb"))
 
 api_key = 'YOUR OMDB API KEY'
 def fetch_poster(movie_id):
-    url = "https://api.themoviedb.org/3/movie/{}?api_key=ded9a698ff167d9046b56bd09f2d806c&language=en-US".format(movie_id)
+    url = "https://api.themoviedb.org/3/movie/{}?api_key={api_key}&language=en-US".format(movie_id,api_key)
     data = requests.get(url)
     data = data.json()
     poster_path = data['poster_path']
