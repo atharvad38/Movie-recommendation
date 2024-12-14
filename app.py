@@ -8,7 +8,7 @@ st.header("Movie Recommendation System")
 movies = pickle.load(open(r"Artifacts/movie_list.pkl","rb"))
 similarity = pickle.load(open(r"Artifacts/similarity.pkl","rb"))
 
-api_key = 'ded9a698ff167d9046b56bd09f2d806c'
+api_key = 'YOUR OMDB API KEY'
 def fetch_poster(movie_id):
     url = "https://api.themoviedb.org/3/movie/{}?api_key=ded9a698ff167d9046b56bd09f2d806c&language=en-US".format(movie_id)
     data = requests.get(url)
