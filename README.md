@@ -70,11 +70,8 @@ The project uses the **TMDB_5000 dataset** for movie data. Make sure the dataset
 ```
 
 ## Screenshots
+![Screenshot 2024-12-12 190050](https://github.com/user-attachments/assets/33901c37-bd47-4764-96f3-803df1676cda)
 
 
-## Contributions
-Feel free to contribute by submitting a pull request or reporting issues.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
